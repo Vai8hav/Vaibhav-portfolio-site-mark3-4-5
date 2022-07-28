@@ -1,5 +1,3 @@
-# Just testing around
+# Vaibhav's Portfolio in the making
 
-This is a test file which has been created. Have a good day. Bye!
-
-Remember to do exercise and eat healthy!
+This will have all Web Dev Projects, blogs and about a little about myself.
