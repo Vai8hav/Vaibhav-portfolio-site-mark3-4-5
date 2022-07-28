@@ -34,12 +34,14 @@ hr {
   background-color: var(--primary-color);
   border-radius: 0.5rem;
   color: white;
+  font-weight: 600;
 }
 
 .link-secondary {
   color: var(--primary-color);
   border-radius: 0.5rem;
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
+  font-weight: 600;
 }
 
 .list-non-bullet {
@@ -123,3 +125,4 @@ hr {
 .footer ul {
   padding-inline-start: 0px;
 }
+
