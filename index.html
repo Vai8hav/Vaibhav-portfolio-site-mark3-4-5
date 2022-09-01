@@ -10,48 +10,76 @@
 
 <body>
   <nav class="container navigation">
-    <div class="nav-brand">Vaibhav's Arena</div>
-      <ul class= "list-non-bullet nav-pills">
-        <li class="list-item-inline"><a href='/' class="navigation-link links link-active">Home</a></li>
+      <ul class= "list-non-bullet">
+        <div class="flexbox1">
+        <!-- <div class="nav-brand">Vaibhav's Portfolio</div> -->
+        <div>
+        <li class="list-item-inline nav-brand">Vaibhav Basantani</li>
+        </div>
+        <div style="float:right">
+        <li class="list-item-inline"><a href='./index.html' class="navigation-link links link-active">Home</a></li>
         <li class="list-item-inline"><a href='./projects.html' class="navigation-link links">Projects</a></li>
         <li class="list-item-inline"><a href='./blogs.html' class="navigation-link links">Blogs</a></li>
+        </div>
+      </div>
       </ul>
   </nav>
 
   <header class="hero">
-    <img class = "hero-img" src="./coder.svg" width=500px height=500px/>
-    <h1 class = "hero-heading">Vaibhav Basantani the <span style="color: var(--primary-color)">web developer</span></h1>
-  </header>
+    <div class="flexbox">
 
-  <section class="section off-white">
-    <div class="container-center">
-    <h1>Technologies</h1>
-    <p>Familiar with: HTML, CSS3, NodeJS, ReactJS, Web Hosting, git, Javascript, SQL, Python</p>
+    <div class="about">
+      <p class="nopad" style="font-size: larger;">Hey Visitor 👋, I'm</p>
+      <h1 style="font-size:xx-large;" class="h1-lim anim">Vaibhav Basantani</h1>
+      <h3 style="margin: 0.5rem 0rem 2rem 0rem;">ASPIRING FULL STACK DEVELOPER</h3>
+      <p style="font-size: larger; width: 30vw;" class="nopad">Analyst in day, coder at night. Fascinated by design and product ✨</p>
+    </div>
+
+    <div>
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <lottie-player class="lottie" src="https://assets5.lottiefiles.com/packages/lf20_V9t630.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
+    </div>
+    <!-- <img class = "hero-img" src="./coder.svg" width=500px height=500px/> -->
+
+  </div>
+</header>
+
+
+  <div class="container-center">
+  <section class="section-index">
+    <div>
+    <h1 class="nopad">TECHNOLOGIES</h1>
+    <p class="nopad">Tools I'm familiar with:</p>
+    <div style="margin: 2rem 0rem 1rem;">
+      <li class="list-item-inline"><a class= "links1 link-active">HTML</a></li>
+      <li class="list-item-inline"><a class="links1 link-active">CSS</a></li>
+      <li class="list-item-inline"><a class="links1 link-active">JAVASCRIPT</a></li>
+      <li class="list-item-inline"><a class="links1 link-active">PYTHON</a></li>
+      <li class="list-item-inline"><a class="links1 link-active">SQL</a></li>
+      <li class="list-item-inline"><a class="links1 link-active">WEB HOSTING</a></li>
+      </div>
     </div>
   </section>
 
-  <section class="section">
-    <div class="container-center">
-    <h1>Projects</h1>
+  <section class="section-index off-white border-style">
+    <div>
+    <h1>PROJECTS</h1>
     <p>You can see my hosted projects online which I have developed using the above mentioned technologies!</p>
-
     <a href="./projects.html" class="links link-primary">See Projects</a>
-
     </div>
   </section>
 
-  <section class="section off-white">
-    <div class="container-center">
-    <h1>Blogs</h1>
-    <p>I like to document my journey. I have written some technical & non technical blogs. Have a look!</p>
-
+  <section class="section-index off-white border-style">
+    <div>
+    <h1>BLOGS</h1>
+    <p>I have written some blogs around web3. Have a look!</p>
     <a href="./blogs.html" class="links link-secondary">Check Blogs</a>
-
-    </div>
+  </div>
   </section>
+  </div>
 
-  <footer class="footer footer-header">
-    <div>Connect with me on socials</div>
+  <footer class="footer navigation">
+    <div>Connect with me!</div>
     <ul class="list-non-bullet">
       <li class="list-item-inline">
         <a class="links" target="_blank" href="https://github.com/Vai8hav"><img src="./github.svg"></a></li>
